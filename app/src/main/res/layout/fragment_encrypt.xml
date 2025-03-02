@@ -1,0 +1,100 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".EncryptFragment">
+
+    <!-- כותרת -->
+    <TextView
+        android:id="@+id/encrypt_TXT_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt Data in Image"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#D14034"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="24dp"/>
+
+    <!-- שדה טקסט להזנה -->
+    <EditText
+        android:id="@+id/encrypt_TXT_text"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:scrollbars="vertical"
+        android:background="@drawable/edittext_rounded"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        android:hint="Enter text to encrypt"
+        app:layout_constraintTop_toBottomOf="@id/encrypt_TXT_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"/>
+
+    <!-- שדה סיסמה -->
+    <EditText
+        android:id="@+id/encrypt_TXT_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_rounded"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        app:layout_constraintTop_toBottomOf="@id/encrypt_TXT_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"/>
+
+    <!-- תמונה -->
+    <ImageView
+        android:id="@+id/encrypt_img_attached"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/attach_image"
+        android:scaleType="fitCenter"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintTop_toBottomOf="@id/encrypt_TXT_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- כפתור בחירת תמונה -->
+    <Button
+        android:id="@+id/encrypt_BTN_selectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintTop_toBottomOf="@id/encrypt_img_attached"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- כפתור הצפנה -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/encrypt_BTN_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt Data"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintTop_toBottomOf="@id/encrypt_BTN_selectImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
