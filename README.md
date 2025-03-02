@@ -1,6 +1,7 @@
 # SecretShot - Encrypt & Decrypt Images
 
 SecretShot is an Android application that allows users to encrypt text inside images and later decrypt it back securely. This ensures that sensitive information can be hidden within image files and accessed only when needed.
+App emo in the following link: https://drive.google.com/file/d/1zJLX8Kbav4Hu5PsETCGBqVAzb1f9TMjc/view?usp=sharing
 
 ## 📌 Features
 - Encrypt Text in Images - Securely hide messages inside image files.
@@ -38,8 +39,6 @@ cd SecretShot
 2. Click "Decrypt Image".
 3. Retrieve the hidden text.
 
-## 📌 Screenshots
-(You can add app screenshots here later)
 
 ## 📌 Technologies Used
 - Java & XML - Core Android development
@@ -50,3 +49,8 @@ cd SecretShot
 
 ## 📌 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📌 Screenshots
+![image](https://github.com/user-attachments/assets/19bdc031-987c-4c3c-b8e4-4db4c6f62507)
+![image](https://github.com/user-attachments/assets/1c498a3a-2db1-4ac1-ac5e-48db11d67364)
+
