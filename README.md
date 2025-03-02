@@ -51,6 +51,6 @@ cd SecretShot
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📌 Screenshots
-![image](https://github.com/user-attachments/assets/19bdc031-987c-4c3c-b8e4-4db4c6f62507)
-![image](https://github.com/user-attachments/assets/fad265de-4323-4840-b354-4614279d3f7c)
+![image](https://github.com/user-attachments/assets/969e27ea-3cf0-4756-bc1c-a28397253d17)
+![image](https://github.com/user-attachments/assets/be043d05-6174-478d-9ad0-4e598130f6b5)
 
