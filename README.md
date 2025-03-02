@@ -52,5 +52,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📌 Screenshots
 ![image](https://github.com/user-attachments/assets/19bdc031-987c-4c3c-b8e4-4db4c6f62507)
-![image](https://github.com/user-attachments/assets/1c498a3a-2db1-4ac1-ac5e-48db11d67364)
+![image](https://github.com/user-attachments/assets/fad265de-4323-4840-b354-4614279d3f7c)
 
