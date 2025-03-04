@@ -13,7 +13,7 @@ App emo in the following link: https://drive.google.com/file/d/1zJLX8Kbav4Hu5PsE
 
 ## 📌 Installation
 ### 🔹 Clone the Repository
-git clone https://github.com/yourusername/SecretShot.git
+git clone https://github.com/yinon42/SecretShot.git
 cd SecretShot
 
 ### 🔹 Open in Android Studio
